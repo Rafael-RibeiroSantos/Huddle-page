@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+body {
+    background-color: var(--dark);
+    background-image: url(images/bg-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+body {
+    background-color: var(--dark);
+    background-image: url(images/bg-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    /* border: 1px solid white; */
+}
+
+.logo {
+    padding: 60px 0px 80px 80px;
+}
+
+.container {
+    display: flex;
+    margin: 0px 80px;
+    justify-content: center;
+}
+
+.container .mockups {
+   padding-right: 25px;
+}
+
+.container .info {
+   padding: 60px 0px 0px 25px;
+}
+
+.container .info h2, p {
+    color: white;   
+}
+
+.container .info h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.container .info p {
+    font-family: 'open sans';
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.container .info button {
+    font-family: 'open sans';
+    width: 200px;
+    font-size: 18px;
+    border-radius: 50px;
+    padding: 15px 10px;
+    box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.5);
+}
+
+.container .info button:hover {
+    cursor: pointer;
+    background-color: var(--soft);
+}
+
+.container .info button:hover a {
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.medias {
+    display: flex;
+    width: 150px;
+    justify-content: space-evenly;
+    margin-right: 50px;
+}
+
+.medias .icon-social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+}
+
+.medias .icon-social-media:hover {
+    cursor: pointer;
+    border: 1px solid var(--soft);
+}
+
+.medias .icon-social-media:hover a {
+    color: var(--soft);
+}
+
+.medias .icon-social-media a {
+    color: white;
+}
