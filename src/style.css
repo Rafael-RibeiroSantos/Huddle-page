@@ -1,24 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
 
 body {
-    background-color: var(--dark);
-    background-image: url(images/bg-desktop.svg);
+    background: url(images/bg-desktop.svg) center center no-repeat;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
-    width: 100vw;
-    height: 100vh;
-    font-family: 'Poppins', sans-serif;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
-
-body {
     background-color: var(--dark);
-    background-image: url(images/bg-desktop.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    max-width: 1440px;
+    margin: 0 auto;
     width: 100vw;
     height: 100vh;
     font-family: 'Poppins', sans-serif;
